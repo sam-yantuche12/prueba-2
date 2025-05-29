@@ -1,0 +1,156 @@
+body{
+    padding: 0 1.2rem;
+   
+}
+
+
+.cajaTextoH {
+    display: flex;
+    height: 1.3rem;
+    gap: 0.3rem;
+    margin-top: 1.6rem;
+   
+}
+
+.section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.cajaBuscador{
+    height: 3.90rem;
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+    width: 100%;
+    margin: auto;
+    gap: 1rem;
+    padding-left: 1rem;
+    border-radius:0.63rem;
+}
+
+.cajaTextoH p{
+    font-size: 1rem;
+
+}
+
+.cajaTextoH h2{
+  font-size: 1rem;
+}
+
+
+.textoCategories{
+    font-size: 1.25rem;
+}
+
+.cajaCategories{
+      height: 1.5rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.textoSeeAll{
+    font-size: 1rem;
+}
+
+
+.cuadrosCategories{
+    height:3.75rem ;
+    width: 100%;
+  flex-direction: row;
+    display: flex;
+    gap: 0.7rem;
+    justify-content: center;
+}
+
+
+.imagenCategories{
+    width: 2.75rem;
+    height: 2.75rem;
+    background-color: #98A8B8;
+    border-radius: 100%;
+    font-size: 14px;
+}
+
+
+.categorie1{
+    height: 100%;
+    width: 6.44rem;
+    background-color: #FFD27C;
+    border-radius: 39px;
+    display: flex;
+     justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.categorie1:hover{
+    height: 100%;
+    width: 6.44rem;
+    background-color: #FFD27C;
+    border-radius: 39px;
+    display: flex;
+     justify-content: center;
+   align-items: center;
+   gap: 10px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+.categorie2{
+    height: 100%;
+    width: 8.46rem;
+    background-color:white;
+    border-radius: 39px;
+    display: flex;
+     justify-content: center;
+   align-items: center;
+   gap: 10px;
+ 
+}
+
+.categorie2:hover{
+    height: 100%;
+    width: 8.46rem;
+    background-color:white;
+    border-radius: 39px;
+    display: flex;
+     justify-content: center;
+   align-items: center;
+   gap: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+ 
+}
+
+.categorie3{
+    height: 100%;
+    width: 7.44rem;
+    background-color: #ffffff;
+    border-radius: 39px;
+    display: flex;
+     justify-content: center;
+   align-items: center;
+   gap: 5px;
+}
+
+
+.categorie3:hover{
+    height: 100%;
+    width: 7.44rem;
+    background-color: #ffffff;
+    border-radius: 39px;
+    display: flex;
+     justify-content: center;
+   align-items: center;
+   gap: 5px;
+       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px); 
+  transition: all 0.3s ease;
+}
